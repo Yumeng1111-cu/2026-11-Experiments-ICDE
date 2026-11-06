@@ -1,0 +1,20 @@
+# Python bytecode / Numba JIT cache
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+
+# Virtual environments and editor settings
+.venv/
+venv/
+.idea/
+.vscode/
+.pytest_cache/
+
+# Generated outputs (regenerate with the commands in README)
+runs/
+
+# Operating-system leftovers
+.DS_Store
+Thumbs.db
+

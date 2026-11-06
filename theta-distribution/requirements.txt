@@ -1,0 +1,7 @@
+numpy>=1.24,<3
+scipy>=1.10,<2
+numba>=0.59
+pandas>=2.1
+matplotlib>=3.7
+# Optional for formatted Excel output, CSV tables always generated:
+# artifact-tool (install separately if available in your environment)
