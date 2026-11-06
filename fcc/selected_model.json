@@ -1,0 +1,44 @@
+{
+  "data": {
+    "source": "FCC Auction 97 cumulative bid file",
+    "block": "G",
+    "definition": "last observed bid for each (item_name, bidder_name) pair",
+    "n": 4286,
+    "raw_bid_min": 1000.0,
+    "raw_bid_max": 829167000.0,
+    "log_bid_min": 6.907755278982137,
+    "log_bid_max": 20.535932140338883,
+    "normalized_mean": 5.235303735079892,
+    "normalized_std": 1.376442938917123
+  },
+  "selection_rule": "lowest five-fold held-out negative log likelihood; BIC used as secondary diagnostic",
+  "selected_model": "Truncated logistic",
+  "parameters": {
+    "loc": 5.195693044062751,
+    "scale": 0.7925594915502006,
+    "lower": 1.0,
+    "upper": 10.0
+  },
+  "parameter_uncertainty": {
+    "loc_95_percentile_ci": [
+      5.151996668482199,
+      5.235125895432639
+    ],
+    "scale_95_percentile_ci": [
+      0.7700150175947583,
+      0.8134951685505648
+    ],
+    "bootstrap_repetitions": 500
+  },
+  "diagnostics": {
+    "model": "Truncated logistic",
+    "parameters": 2,
+    "cv_nll_mean": 1.7292298319108035,
+    "cv_nll_se": 0.009510073998557895,
+    "log_likelihood": -7409.443886847176,
+    "aic": 14822.887773694352,
+    "bic": 14835.61399204642,
+    "ks_statistic": 0.014703170351289874
+  },
+  "normalization": "X = 1 + 9*(log(bid)-min_log_bid)/(max_log_bid-min_log_bid), computed within block G"
+}
