@@ -1,0 +1,41 @@
+{
+  "font_family": "DejaVu Sans",
+  "algorithms": {
+    "ACRP-FV": {
+      "color": "#C74B4B",
+      "marker": "o",
+      "linestyle": "-",
+      "linewidth": 2.1
+    },
+    "SW-FV": {
+      "color": "#2D7CA2",
+      "marker": "s",
+      "linestyle": "--",
+      "linewidth": 1.7
+    },
+    "SW-FI-UCB-FV": {
+      "color": "#846AA5",
+      "marker": "^",
+      "linestyle": "-.",
+      "linewidth": 1.7
+    },
+    "Fixed-Share": {
+      "color": "#D08C3B",
+      "marker": "D",
+      "linestyle": ":",
+      "linewidth": 1.9
+    },
+    "Calibrated Full-history": {
+      "color": "#528C78",
+      "marker": "v",
+      "linestyle": "--",
+      "linewidth": 1.7
+    },
+    "Oracle-SW": {
+      "color": "#545B6A",
+      "marker": "P",
+      "linestyle": "-",
+      "linewidth": 1.8
+    }
+  }
+}

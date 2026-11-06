@@ -1,0 +1,25 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated Monte Carlo data, tables and figures
+results/
+runs/
+figures/
+
+# Local logs and temporary files
+*.log
+*.tmp
