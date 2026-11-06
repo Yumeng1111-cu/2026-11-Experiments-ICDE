@@ -1,0 +1,21 @@
+# Local Python environments and IDE state (do not upload)
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# IMPORTANT: Do NOT exclude outputs/: saved datasets and figures are included.
