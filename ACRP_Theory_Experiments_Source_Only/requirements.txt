@@ -1,0 +1,6 @@
+# Tested with Python 3.13.5 in the packaging environment.
+numpy>=2.0,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+matplotlib>=3.8,<4
+numba>=0.61,<1
