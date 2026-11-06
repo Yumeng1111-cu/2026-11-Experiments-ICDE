@@ -1,0 +1,22 @@
+# Python bytecode and JIT cache
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+
+# Environments and IDE metadata
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Generated Monte Carlo results (can be regenerated)
+runs/
+outputs/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.log
