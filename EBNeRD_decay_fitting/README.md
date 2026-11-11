@@ -61,9 +61,6 @@ and `validation/behaviors.parquet` at its root.
 - `results/ctr_decay_actual_vs_exponential.png` / `.svg`: full-window and later-window diagnostics
 - `results/ctr_decay_publication.pdf` / `.png` / `.svg`: observed series and 8–48 h fit
 
-**None of these real-data results are included in this repository.** They are
-ignored by Git pending the user's licensing review; the script intentionally
-does **not** write article-level IDs or per-article tables.
 
 ## Method at a glance
 
@@ -131,6 +128,3 @@ blanket right to redistribute or repurpose the files.
 - License terms: https://recsys.eb.dk/assets/pdf/general_license_terms.pdf
 - See [Data access and licensing](docs/DATA_ACCESS_AND_LICENSE.md).
 
-No license for this repository's *code* is specified automatically; add a
-separate code `LICENSE` only after selecting your intended terms. Such a code
-license would **not** license EB-NeRD data or rights owned by its provider.
