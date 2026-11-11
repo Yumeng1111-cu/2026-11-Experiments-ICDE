@@ -42,18 +42,3 @@ records. This documentation is an engineering precaution, not legal advice.
 `data/` and `results/` are excluded by `.gitignore` except for explanatory
 README files. The software also does not save per-article trajectories by
 default. The in-memory aggregation is still required to run the bootstrap.
-
-## Git history warning
-
-A `.gitignore` prevents new Git tracking of matching files, but **does not
-remove files already committed**. If sensitive files were previously committed,
-remove them from the repository and follow GitHub guidance for cleaning Git
-history; deleting a tracked file in a later commit is not sufficient to make
-old revisions inaccessible.
-
-## Code license
-
-This repository intentionally does not choose a code license on behalf of the
-researcher. A later code license would cover the repository code **only**,
-not EB-NeRD data, news article text, or the data provider's intellectual
-property.
