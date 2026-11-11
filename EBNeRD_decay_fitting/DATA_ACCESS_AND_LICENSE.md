@@ -29,16 +29,3 @@ For an application to data pricing, buyer valuation modeling, or other work
 outside the stated news-recommendation purpose, seek **written confirmation or
 separate authorization** from the provider before relying on the licensed
 records. This documentation is an engineering precaution, not legal advice.
-
-## What's intentionally excluded
-
-- The official ZIP and all Parquet files
-- `results/per_article_48h.npz` from the original private analysis, which
-  contained **article IDs and article-level hourly exposure/click counts**
-- Aggregate CSV / JSON and figures derived from the licensed real dataset,
-  unless the user separately authorizes release under the applicable terms
-- Credentials, account information, or other locally sensitive files
-
-`data/` and `results/` are excluded by `.gitignore` except for explanatory
-README files. The software also does not save per-article trajectories by
-default. The in-memory aggregation is still required to run the bootstrap.
