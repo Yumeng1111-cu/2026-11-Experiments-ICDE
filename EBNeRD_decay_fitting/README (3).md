@@ -1,4 +1,4 @@
-# Local generated outputs (not committed)
+# Local generated outputs 
 
 `python run.py` writes locally computed aggregate hourly results, model summaries,
 and diagnostic figures to this directory. These are excluded from Git because
