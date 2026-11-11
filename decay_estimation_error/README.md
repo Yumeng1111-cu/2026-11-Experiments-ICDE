@@ -129,12 +129,3 @@ decay-error/
     └── RESULTS_500MC.md
 ```
 
-The GitHub upload contains **source code, fixed configuration, and documentation**, but **not** generated Monte Carlo data or original market datasets. Generated outputs are excluded by `.gitignore`.
-
-## Reproducibility and interpretation
-
-This package originally lacked `config/frozen_config.json`, required by `run_experiment.py`. That file has been restored from the literal candidate grids in `src/competitors.py`, without changing the pricing algorithms. The original script also used `±25%` as two default relative-error levels, while its experimental report and intended design specified `±30%`; the defaults were corrected to `±30%` for consistency. All other model and algorithm code is retained.
-
-For the previously reported 500-MC summary (the raw runs were **not** included in the uploaded archive), see [`docs/RESULTS_500MC.md`](docs/RESULTS_500MC.md). Rerun the scripts to independently regenerate and verify the values.
-
-Mean-decay calibration optimality under a squared log-valuation error criterion does not imply that the exact mean decay rate minimizes revenue loss; pricing performance depends on the shape of the demand curve and on window selection.
