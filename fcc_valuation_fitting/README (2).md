@@ -141,16 +141,9 @@ The source is the public FCC Auction 97 bidding record:
 - Cumulative XML: `97_341_database_cumulative.xml`
 
 An exit bid is used only as a proxy for valuation; it is not a direct
-observation of a bidder's private valuation. This repository is not affiliated
-with or endorsed by the FCC.
+observation of a bidder's private valuation. 
 
 The data treatment follows the real-data preprocessing used in:
 
 - Gao et al., *Learn Then Decide: A Learning Approach for Designing Data
   Marketplaces*, arXiv:2503.10773.
-
-## License note
-
-No software license is assigned in this package. Before public release, the
-repository owner should add the preferred code license. FCC source data and
-third-party references remain subject to their respective source terms.
