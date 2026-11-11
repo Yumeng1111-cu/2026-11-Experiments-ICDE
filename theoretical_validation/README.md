@@ -104,4 +104,3 @@ scripts/verify_data.py     # check CSV outputs after generation
 .github/workflows/check.yml# lightweight reproducibility checks
 ```
 
-**License and citation:** No license or author identity was inferred from the source. Add an appropriate `LICENSE` and final paper citation before public release when decided by the authors.
