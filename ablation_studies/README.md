@@ -1,9 +1,5 @@
 # Ablation Studies (Section 7.2)
 
-Reproducible numerical experiments accompanying the ablation study of dynamic pricing for aging data with heterogeneous time sensitivities. This is a **standalone subdirectory** intended to coexist with other experimental packages in a single GitHub repository. Its programs, settings, saved results, and figures are self-contained.
-
-> **Saved results are included.** Unlike a source-only package, this folder includes the original formal and quick CSV files and the exported PNG/PDF/SVG figures. No existing results have been deleted or regenerated for this GitHub package.
-
 ## Experiments
 
 | Study | Independent variables | Constant settings |
@@ -74,11 +70,3 @@ ablation_studies/
 ```
 
 `formal/` contains **51 experiment configurations**, with **45 distinct per-scenario CSV files**, because some scenarios are shared across experiments. The quick folder contains **27 per-scenario CSVs**, summaries A and B, and config A; the quick results are not publication-quality estimates. All of these files are retained as provided.
-
-## Adding to your existing GitHub repository
-
-**Do not upload the ZIP as a single file.** Extract it and upload the entire `ablation_studies` folder, *including the subdirectory name*, alongside your theoretical-experiment folder. This avoids conflicts between files such as `settings.py`, `core.py`, and `plot_all.py`. You may place it at `experiments/ablation_studies/` if you already use an `experiments/` directory. The repository's public URL stays the same.
-
-No software license or author metadata has been added; choose these for your repository and check double-blind submission requirements before making the repository public.
-
-中文说明见 [README.zh-CN.md](README.zh-CN.md).
