@@ -1,4 +1,4 @@
-# Local dataset directory (not committed)
+# Local dataset directory 
 
 Download **EB-NeRD Small** only from the official distribution site after
 reviewing and accepting the applicable license:
@@ -20,5 +20,4 @@ train/behaviors.parquet
 validation/behaviors.parquet
 ```
 
-Do not commit or redistribute the files here. This folder is ignored by Git
-except for this README.
+Do not commit or redistribute the files here. 
