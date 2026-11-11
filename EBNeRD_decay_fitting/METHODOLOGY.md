@@ -1,8 +1,5 @@
 # Methodology and reproducibility notes
 
-This file documents the **method implemented in the original uploaded code**;
-it does not claim an independent audit of the raw dataset.
-
 ## Input and observation definition
 
 The project reads the **EB-NeRD Small** archive containing:
@@ -25,11 +22,6 @@ Article age is computed as impression timestamp minus publication timestamp,
 then floored to an integer hour. The pooled rate is
 
 `CTR_h = sum_articles(clicks[article, h]) / sum_articles(exposures[article, h])`.
-
-**Interpretation:** the denominator counts candidate news exposures, not all
-pageviews, not all behavior rows, and not distinct users. This computation is
-not a causal estimate of aging effects; position, recommendation policy,
-article mix and audience effects can also contribute.
 
 ## Statistical models
 
